@@ -1,0 +1,6 @@
+def hello(uname):
+    a='hello'+uname
+    return a
+x=input("Enter your name--->")
+y=hello (x)
+print(y)
