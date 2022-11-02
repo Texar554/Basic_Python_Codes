@@ -1,0 +1,7 @@
+ang=(int(input("Enter the value of theta--->")))
+if ang<90 and ang>0:
+    print("The given angle is an acute angle")
+elif ang>90 and ang<180:
+    print("The given angle is an obtuse angle")
+else:
+    print("The given angle is a right angle")
