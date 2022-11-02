@@ -1,0 +1,7 @@
+prc=int(input("Enter your bill amount--->"))
+disc=prc*0.10
+if prc>5000:
+    print("Your discounted bill amount=",disc)
+    
+else:
+    print("Bill amount not valid for discount")
