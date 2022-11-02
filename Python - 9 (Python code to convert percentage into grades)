@@ -1,0 +1,21 @@
+pnt=int(input("Enter your percentage--->"))
+if pnt>=91 and pnt<=100:
+    print("Your Grade is A1")
+elif pnt>=81 and pnt<91:
+    print("Your Grade is A2")
+elif pnt>=71 and pnt<81:
+    print("Your Grade is B1")
+elif pnt>=61 and pnt<71:
+    print("Your Grade is B2")
+elif pnt>=51 and pnt<61:
+    print("Your Grade is C1")
+elif pnt>=41 and pnt<51:
+    print("Your Grade is C2")
+elif pnt>=33 and pnt<41:
+    print("Your Grade is D")
+elif pnt>=21 and pnt<33:
+    print("Your Grade is E1")
+elif pnt>=0 and pnt<21:
+    print("Your Grade is E2")
+else:
+    print("Warning:Enter correct percentage!")
