@@ -1,7 +1,5 @@
-#accept no. from user from range 0 to 100
-
-num=int(input("Enter a numnber"))
-if num>0 and num<==100;
-    print("within range")
+num = int(input("Enter a number: "))
+if num >= 0 and num <= 100:
+    print("Within range")
 else:
-    print("Out of Range")
+    print("Out of range")
